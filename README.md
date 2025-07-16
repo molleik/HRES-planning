@@ -18,9 +18,9 @@ To cite this work: (ADD CITATION)
 ## Project Structure
 ```markdown
 ├── Plotting/                              # Codes used to generate figures from output files
-│   ├── plotting_functions.py              # Code that generates 
-│   └── Data/                                   
-├── Models/                                 # Model files
+│   ├── plotting_functions.py              # Code containing various functions used to visualize different metrics
+│   └── plot_rh_results.py                 # Code that automatically plots all relevant results of a rolling horizon run                           
+├── Models/                                # Model files
 │   ├── rolling_horizon.py                 # Rolling Horizon model formulation
 │   ├── merge_functions.py                 # Helper functions for rolling_horizon.py
 │   ├── deterministic_model.py             # Deterministic model formulation
