@@ -173,8 +173,8 @@ input_data = pd.read_excel(
     os.path.join(
         main_dir,
         'Results',
-        '100% Discount',
-        '100% Discount Inputs.xlsx'
+        'Base Case',
+        'Base Case Inputs.xlsx'
     ),
     sheet_name=None
 )
@@ -182,7 +182,7 @@ input_data = pd.read_excel(
 output_location = os.path.join(
     main_dir,
     'Results',
-    '100% Discount'
+    'Base Case'
 )
 
 decoupled_model(
