@@ -17,16 +17,15 @@ To cite this work: (ADD CITATION)
 
 ## Project Structure
 ```markdown
-├── Plotting/                              # Codes used to generate figures from output files
-│   ├── plotting_functions.py              # Code containing various functions used to visualize different metrics
-│   └── plot_rh_results.py                 # Code that automatically plots all relevant results of a rolling horizon run                           
-├── Models/                                # Model files
 │   ├── rolling_horizon.py                 # Rolling Horizon model formulation
 │   ├── merge_functions.py                 # Helper functions for rolling_horizon.py
 │   ├── deterministic_model.py             # Deterministic model formulation
 │   ├── stochastic_model.py                # Stochastic model formulation
 │   ├── decoupled_model.py                 # Decoupled model formulation
 │   └── naive_deterministic.py             # Naive deterministic model formulation
+├── Plotting/                              # Codes used to generate figures from output files
+│   ├── plotting_functions.py              # Code containing various functions used to visualize different metrics
+│   └── plot_rh_results.py                 # Code that automatically plots all relevant results of a rolling horizon run                           
 ├── Results/                               # Results and output files
 │   ├── Base Case/                         # Input file and results for the base case
 │   ├── 30% Discount/                      # Input file and results for the case of 30% discount on asset valuation
