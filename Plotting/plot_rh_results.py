@@ -269,7 +269,7 @@ def plot_results(folder, fs=30, save=True, show=False,
             )
 
 
-main_dir = os.getcwd()
+main_dir = os.getcwd().split('\\')[:-1]
 
 path = os.path.join(
     main_dir,
