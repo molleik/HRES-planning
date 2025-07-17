@@ -269,27 +269,20 @@ def plot_results(folder, fs=30, save=True, show=False,
             )
 
 
-main_dir = r'C:\Users\User\OneDrive - American University of Beirut\Decentralized Planning Grid Uncertainty\Codes - Kareem\GitHub\Results'
+main_dir = os.getcwd()
 
-to_plot = [
-    # 'Base Case',
-    # '30% Discount',
-    # '100% Discount',
-    'Increased Capacity Limit'
-]
+path = os.path.join(
+    main_dir,
+    'Results',
+    'Base Case',
+    'Receding Horizon'
+)
 
-for _case in to_plot:
-    path = os.path.join(
-        main_dir,
-        _case,
-        'Receding Horizon'
-    )
-
-    plot_results(
-        path,
-        fs=50,
-        save=True,
-        show=False,
-        plot_scenarios=True,
-        plot_values=True
-    )
+plot_results(
+    path,
+    fs=50,
+    save=True,
+    show=False,
+    plot_scenarios=True,
+    plot_values=True
+)
