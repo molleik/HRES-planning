@@ -1,4 +1,4 @@
-# HRES-planning
+# Planning HRES under uncertain grid interconnection conditions
 
 This repository contains data, code, and result files for a research paper entitled: [Planning hybrid renewable energy systems under uncertain grid interconnection conditions](#).
 
