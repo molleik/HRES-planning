@@ -1,7 +1,6 @@
 # HRES-planning
 
-This repository contains data, code, and result files for a research paper entitled: [Planning hybrid renewable energy systems under grid
-uncertainties](ADD LINK).
+This repository contains data, code, and result files for a research paper entitled: [Planning hybrid renewable energy systems under uncertain grid interconnection conditions](#).
 
 ## Table of Contents
 1. [Description](#description)
@@ -10,14 +9,14 @@ uncertainties](ADD LINK).
 
 ## Description
 
-The project introduces a rolling-horizon modeling framework for Generation Expansion Planning that considers uncertainties regarding the time of availability of the grid, the electricity price and the feed-in tariff. The framework makes use of a tree of stochastic and deterministic linear programs. 
+The project introduces a receding horizon modeling framework for hybrid renewable energy systems planning considering uncertainties regarding the interconnection time to the grid, along with the associated electricity price and the feed-in tariff. The framework makes use of a tree of stochastic and deterministic linear programs. 
 The framework is applied on a community in the Higher Matn, Lebanon, as a case study. Sensitivity analysis is conducted on valuation of assets and installation limits. All output files are provided in their respective folder (see [Project Structure](#project-structure)).
 
 To cite this work: (ADD CITATION)
 
 ## Project Structure
 ```markdown
-│   ├── rolling_horizon.py                 # Rolling Horizon model formulation
+│   ├── receding_horizon.py                # Receding Horizon model formulation
 │   ├── merge_functions.py                 # Helper functions for rolling_horizon.py
 │   ├── deterministic_model.py             # Deterministic model formulation
 │   ├── stochastic_model.py                # Stochastic model formulation
