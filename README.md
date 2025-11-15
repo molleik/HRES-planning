@@ -36,3 +36,10 @@ To cite this work: (ADD CITATION)
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## Libraries and Packages
+Python: version 3.11.5
+Gurobi: Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+pandas: version 2.2.3
+numpy: version 1.26.4
+matplotlib: version 3.10.0
